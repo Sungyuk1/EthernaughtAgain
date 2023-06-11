@@ -1,0 +1,4 @@
+1) You can use Remix to interact with on chain contracts as long as you provide the contracts address, compiled contract, or abi
+2) Call Contribute on the contract so that your balance is greater than zero
+3) Then use the recieve function to make yourself the owner
+4) 
