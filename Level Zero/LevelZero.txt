@@ -1,0 +1,8 @@
+1) Get New Instance
+2) await contract.info()
+3) contract.info2() with "hello" as a param
+4) await contract.infoNum()
+5) await contract.info42()
+6) await contract.theMethodName()
+7) await contract.method7123949()
+8) await contract.password() - copy what you get into contract.authenticate
