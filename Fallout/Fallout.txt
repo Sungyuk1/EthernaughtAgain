@@ -1,0 +1,2 @@
+1) The contract does not use the keyword constructor for their constructor. It uses a public function Fal1out which can be called by anyone as the constructor.
+Just call the fal1out function
