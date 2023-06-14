@@ -1,0 +1,2 @@
+1) Just call the changeOwner function from a deployed smart contract. Then tx.origin will not equal msg.sender since the origin will be your address and 
+msg.sender will be the contract address. 

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_TelephoneAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "changeOwnerAttack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Telephone/TelephoneAttack.sol": "TelephoneAttack"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Telephone/TelephoneAttack.sol": {
+			"keccak256": "0x288e25b2b9a7f700f73479a4b65a9257d7fb2f611607cd5c0ed79215af19b191",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://90ae3081ea0ca59f3fb69616f905326a8abacdc1f49e246e1848b9f3f222ee3d",
+				"dweb:/ipfs/QmcsmrjfSGfnWxqM55ySq77wgzFtND5fThQRJTnSFMq7b6"
+			]
+		}
+	},
+	"version": 1
+}
