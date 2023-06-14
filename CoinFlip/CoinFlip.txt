@@ -1,0 +1,2 @@
+1) The source of randomness for the coinflip is not random. Deploy another contract and have a function which calls the instance's flip method after
+   calculating the correct side everytime.
