@@ -1,0 +1,7 @@
+1) Note that if a Fallback or Recieve function is not defined in a contract, it will not accept ether. If you try to send it ether it will just revert
+2) Note that "Self destruct is a built-in function in Solidity that allows you to effectively remove a contract from the blockchain and send its remaining ether to a designated recipient."
+3) Note "A malicious contract can use selfdestruct to force sending Ether to any contract."
+4) Create a contract which has a function you can call to self destruct. Make sure to send some ether to this contract using a Fallback and put the 
+level instance address as the recpient of the self.destruct call. 
+
+5) Note SelfDestruck might be deprecated in the future

@@ -1,0 +1,101 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5060ae8061001e6000396000f3fe608060405260043610601f5760003560e01c8063f28adc4d146032576025565b36602557005b348015603057600080fd5b005b348015603d57600080fd5b5060446046565b005b6000737abc582c30451d58a2fb0dded0ac024dbfb7349890508073ffffffffffffffffffffffffffffffffffffffff16fffea26469706673582212203199e41c6d6849bd41386fc41cfc47a3c91471c6dbaa80004170b04ac8d9221f64736f6c63430008120033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xAE DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x1F JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xF28ADC4D EQ PUSH1 0x32 JUMPI PUSH1 0x25 JUMP JUMPDEST CALLDATASIZE PUSH1 0x25 JUMPI STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x30 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x3D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x44 PUSH1 0x46 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 PUSH20 0x7ABC582C30451D58A2FB0DDED0AC024DBFB73498 SWAP1 POP DUP1 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SELFDESTRUCT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 BALANCE SWAP10 0xE4 SHR PUSH14 0x6849BD41386FC41CFC47A3C91471 0xC6 0xDB 0xAA DUP1 STOP COINBASE PUSH17 0xB04AC8D9221F64736F6C63430008120033 ",
+			"sourceMap": "57:412:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@Attack_27": {
+					"entryPoint": 70,
+					"id": 27,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				},
+				"@_5": {
+					"entryPoint": null,
+					"id": 5,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				},
+				"@_9": {
+					"entryPoint": null,
+					"id": 9,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "608060405260043610601f5760003560e01c8063f28adc4d146032576025565b36602557005b348015603057600080fd5b005b348015603d57600080fd5b5060446046565b005b6000737abc582c30451d58a2fb0dded0ac024dbfb7349890508073ffffffffffffffffffffffffffffffffffffffff16fffea26469706673582212203199e41c6d6849bd41386fc41cfc47a3c91471c6dbaa80004170b04ac8d9221f64736f6c63430008120033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x1F JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xF28ADC4D EQ PUSH1 0x32 JUMPI PUSH1 0x25 JUMP JUMPDEST CALLDATASIZE PUSH1 0x25 JUMPI STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x30 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x3D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x44 PUSH1 0x46 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 PUSH20 0x7ABC582C30451D58A2FB0DDED0AC024DBFB73498 SWAP1 POP DUP1 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND SELFDESTRUCT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 BALANCE SWAP10 0xE4 SHR PUSH14 0x6849BD41386FC41CFC47A3C91471 0xC6 0xDB 0xAA DUP1 STOP COINBASE PUSH17 0xB04AC8D9221F64736F6C63430008120033 ",
+			"sourceMap": "57:412:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;210:257;;;;;;;;;;;;;:::i;:::-;;;348:20;387:42;348:83;;455:4;442:18;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "34800",
+				"executionCost": "87",
+				"totalCost": "34887"
+			},
+			"external": {
+				"": "112",
+				"Attack()": "27733"
+			}
+		},
+		"methodIdentifiers": {
+			"Attack()": "f28adc4d"
+		}
+	},
+	"abi": [
+		{
+			"stateMutability": "nonpayable",
+			"type": "fallback"
+		},
+		{
+			"inputs": [],
+			"name": "Attack",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"stateMutability": "payable",
+			"type": "receive"
+		}
+	]
+}

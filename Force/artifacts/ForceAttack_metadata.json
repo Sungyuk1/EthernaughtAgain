@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "Attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Force/ForceAttack.sol": "ForceAttack"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Force/ForceAttack.sol": {
+			"keccak256": "0x22e15bed88cdf3b7905dba1c2dfd03b2f4453301bae046da6977fe0d1411a8fb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c3c81ac9be0d83cd4fa26dfbafc3c2dd5a39bd300f4ef23ada956542fb0648f",
+				"dweb:/ipfs/QmUF359vKbGkUKoUtcpPWCVLqwjWgdhyiCvkRxLdQtsqVL"
+			]
+		}
+	},
+	"version": 1
+}
