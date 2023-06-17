@@ -1,0 +1,4 @@
+1) The password is a private variable located in storage slot 1 (storage slots start at 0, and since it is bytes32 it will not be packed together with 
+the bool variable at storage slot 1)
+2) Just look at the storage slot using the following web3 function - await web3.eth.getStorageAt("0xdA599Ff38FA2Cbb80f4dea88AC870275E093223a", 1)
+3) Remember all variables are visible on a blockchain even if they are labeled as private
