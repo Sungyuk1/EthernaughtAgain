@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "sendEthToKing",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"King/KingAttack.sol": "KingAttack"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"King/KingAttack.sol": {
+			"keccak256": "0xc3e3b97f959efe2f99469b90a1e9d9f960901f2e1d774a5b73dbd03187130a39",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cfc8a4d1b42125d16c155a9b5b337c9a035572692315a440ffaa0332d1be0519",
+				"dweb:/ipfs/QmbwuJERfeMBHJhVz7jMFVgCh39ZRQbiHaYXJDcSHpdGb7"
+			]
+		}
+	},
+	"version": 1
+}

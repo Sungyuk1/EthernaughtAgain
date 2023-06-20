@@ -1,0 +1,4 @@
+1) This is a denial of service attack
+2) When you try to send ether to a contract without a fallback/recieve method, or has a malicious fallback/recieve function, it can stop you from being
+able to use your contract in the manner it was designed to be used. 
+3) Make a contract with a fallback/recieve method that will only work once when the contract calls transfer to make the contract the king
