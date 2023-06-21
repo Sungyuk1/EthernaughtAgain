@@ -1,0 +1,3 @@
+1) Notice that the reentrance contract's withdraw funciton does msg.sender.call before changing the value of balance
+2) Have your recieve function also call the withdraw method. This will create an infinite loop where the function will keep sending you funds
+   which will call our contract's recieve function, which will then call the withdrawl function again all before the balance is changed
