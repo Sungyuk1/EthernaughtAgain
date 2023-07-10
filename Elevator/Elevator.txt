@@ -1,0 +1,1 @@
+1) You can implement the interface so that the first time isLastFloor is called it returns false, but then it will return true the second time it is called.
